@@ -11,5 +11,7 @@ public class Main {
         BiFunction<Integer, Integer, Integer> addTwoNumbers = (x, y) -> x + y;
         Integer z = addTwoNumbers.apply(2, 3);
         System.out.println("Sum check = " + z);
+
+
     }
 }
